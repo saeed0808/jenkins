@@ -1,8 +1,7 @@
 node{
     stage('SCM Checkout'){
       git 'https://github.com/saeed0808/jenkins.git'
-}
-}
+     }
 pipeline {
     agent any
 
@@ -28,4 +27,5 @@ pipeline {
 		}
 	}
     }
+}
 }
