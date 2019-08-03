@@ -4,6 +4,6 @@ node{
       git 'https://github.com/saeed0808/jenkins.git'
      }
     stage('Compile-Package'){
-    sh 'mvn package'
+    sh 'mvn package run'
     }
 }
